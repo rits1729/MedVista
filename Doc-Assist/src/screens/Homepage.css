@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* border: solid 2px red; */
+
+}
+
+/* #homepage {} */
+
+#top-navbar {
+    height: 20%;
+    width: 100%;
+
+    /* border: solid 2px red; */
+}
+
+#bottom-main {
+    /* border: solid 2px red; */
+    height: 80%;
+    width: 100%;
+
+    display: flex;
+
+}
+
+#left-sidebar {
+
+
+    /* background-color: cyan; */
+    /* border: solid 2px red; */
+    /* height: 100vh; */
+    width: 12%;
+    background-color: white;
+    /* padding: 0 0.5%; */
+    /* border-right: solid 1px gray; */
+}
+
+#right-main-content {
+    height: 100%;
+    width: 90%;
+    /* margin-top: 4%; */
+
+
+    /* background-color: rgb(239, 237, 237); */
+    background-color: #d3d3d3;
+    /* padding: 10px 10px; */
+}
+
+
+#top-widgets {
+
+    /* background-color: white; */
+
+    margin-top: 5%;
+
+    height: 40%;
+    padding: 0 1%;
+    /* border: solid 2px red; */
+}
+
+#top-widgets .top {
+
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* padding: 0 10px; */
+}
+
+#top-widgets .top h1 {
+    font-weight: 600;
+}
+
+#top-widgets .top .date {
+    padding: 0.5%;
+    /* border: solid 1px rgb(237, 226, 226); */
+}
+
+.date select {
+    outline: none;
+    /* border: none; */
+    padding: 3%;
+
+    border-radius: 12px;
+    /* background-color: cyan; */
+
+}
+
+.date {
+    /* background-color: white; */
+    padding: .5%;
+    border: none;
+}
+
+#top-widgets .bottom {
+    /* border: solid 2px red; */
+    height: 80%;
+    padding-top: 10px;
+
+    display: flex;
+    gap: 2%;
+    justify-content: space-around;
+    align-items: center;
+
+}
+    
+#top-widgets .bottom a {
+    text-decoration: none;
+    flex: 1;
+}
+
+
+#mid-graphs {
+    /* border: solid 2px red; */
+    height: 40%;
+
+    display: flex;
+    gap: 2%;
+    /* flex: 1; */
+
+    padding: 2% 1%;
+
+    /* padding: 10px; */
+}
+
+#mid-graphs .top h1 {
+    font-weight: 600;
+}
+
+#mid-graphs .top .date {
+    padding: 0.5%;
+    /* border: solid 1px gray;   */
+}
+
+#mid-graphs .left .top, #mid-graphs .right .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* padding-top: 10px; */
+}
+
+#mid-graphs .left, #mid-graphs .right {
+    flex: 1;
+
+    /* border: solid 2px green; */
+    background-color: white;
+    padding: .5% 2%;
+
+    border-radius: 20px;
+} 
+
+#bottom-table {
+    
+    /* margin-top: 2%; */
+    padding: 2% 1%;
+    /* padding-top: 2%; */
+}
+
