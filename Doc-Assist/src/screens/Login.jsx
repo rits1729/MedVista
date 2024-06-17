@@ -16,17 +16,17 @@ const Login = () => {
 
 
 
-      {/* <spline-viewer url="https://my.spline.design/roomgirlreadingcopy-956223557f9947d30d37387cacc12398/"></spline-viewer> */}
+        {/* <spline-viewer url="https://my.spline.design/roomgirlreadingcopy-956223557f9947d30d37387cacc12398/"></spline-viewer>
 
-      {/* <spline-viewer url="https://prod.spline.design/PBQQBw8bfXDhBo7w/scene.splinecode" events-target="global"></spline-viewer> */}
+        <spline-viewer url="https://prod.spline.design/PBQQBw8bfXDhBo7w/scene.splinecode" events-target="global"></spline-viewer>
 
-      {/* <spline-viewer url="https://prod.spline.design/fJ2ptJKzT-sDkpfO/scene.splinecode" background="rgba(218,81,221,0.2)"></spline-viewer> */}
-      
-
-      {/* <iframe src='https://my.spline.design/roomgirlreadingcopy-956223557f9947d30d37387cacc12398/' frameborder='0' width='100%' height='100%'></iframe> */}
+        <spline-viewer url="https://prod.spline.design/fJ2ptJKzT-sDkpfO/scene.splinecode" background="rgba(218,81,221,0.2)"></spline-viewer> */}
 
 
-        
+        {/* <iframe src='https://my.spline.design/roomgirlreadingcopy-956223557f9947d30d37387cacc12398/' frameborder='0' width='100%' height='100%'></iframe> */}
+
+
+
       </div>
 
       {/* FORM STARTS  */}

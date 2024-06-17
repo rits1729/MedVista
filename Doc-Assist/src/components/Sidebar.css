@@ -1,10 +1,8 @@
-
-
 #sidebar {
     display: flex;
     flex-direction: column;
-    /* padding: 0 3%; */
-
+    padding: 15px;
+    margin-right: 15px;
     width: 11.5%;
 
     /* border: solid 2px red; */
@@ -15,7 +13,8 @@
     /* z-index: 5; */
 }
 
-#patients-ul, #appointments-ul {
+#patients-ul,
+#appointments-ul {
     display: none;
     /* list-style: decimal-leading-zero; */
     list-style: none;
@@ -27,15 +26,22 @@ a {
     gap: 5%;
 }
 
-#patients-ul a, #appointments-ul a {
+#patients-ul a,
+#appointments-ul a {
     text-decoration: none;
     display: flex;
     justify-content: center;
     height: 2.5em;
-    width: 100%; 
+    width: 100%;
 }
 
-#dashboard, #dropDown-one, #dropDown-two, #dropDown-three, #dropDown-four, #dropDown-five, #theme {
+#dashboard,
+#dropDown-one,
+#dropDown-two,
+#dropDown-three,
+#dropDown-four,
+#dropDown-five,
+#theme {
 
     height: 3.6em;
 
@@ -50,20 +56,34 @@ a {
     font-size: 18px;
 }
 
-#dashboard, #dropDown-three, #dropDown-four, #dropDown-five, #theme {
+#dashboard,
+#dropDown-three,
+#dropDown-four,
+#dropDown-five,
+#theme {
 
     justify-content: center;
 
 }
 
-#dashboard:hover, #dropDown-one:hover, #dropDown-two:hover, #dropDown-three:hover, #dropDown-four:hover, #dropDown-five:hover, #theme:hover {
+#dashboard:hover,
+#dropDown-one:hover,
+#dropDown-two:hover,
+#dropDown-three:hover,
+#dropDown-four:hover,
+#dropDown-five:hover,
+#theme:hover {
     cursor: pointer;
     background-color: lightskyblue;
     font-style: italic;
 }
 
-#dashboard .active, #dropDown-one .active,
-#dropDown-two .active, #dropDown-three .active, #dropDown-four:active, #dropDown-five:active  {
+#dashboard .active,
+#dropDown-one .active,
+#dropDown-two .active,
+#dropDown-three .active,
+#dropDown-four:active,
+#dropDown-five:active {
     color: green;
 
     /* border-left: solid 3px green; */
@@ -80,7 +100,8 @@ a {
     gap: 10%;
 }
 
-#dark, #light {
+#dark,
+#light {
     height: 50%;
     width: 16%;
     border: solid 2px black;
@@ -93,5 +114,6 @@ a {
     background-color: white;
 }
 
-
-
+.padding {
+    padding-left: 5px;
+}

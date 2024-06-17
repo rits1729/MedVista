@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react'
 import './Sidebar.css'
-import {Link, NavLink, Route, Routes } from 'react-router-dom';
+import { Link, NavLink, Route, Routes } from 'react-router-dom';
 import Login from '../screens/Login';
 import Homepage from '../screens/Homepage';
 
@@ -25,10 +25,10 @@ const Sidebar = () => {
 
     // }, [dropDowns])
 
-    
+
 
     function dropDownOne() {
-        if(ddOne.current.style.display === 'none') {
+        if (ddOne.current.style.display === 'none') {
             ddOne.current.style.display = 'block';
         }
 
@@ -38,8 +38,8 @@ const Sidebar = () => {
     }
 
     function dropDownTwo() {
-        
-        if(ddTwo.current.style.display === 'none') {
+
+        if (ddTwo.current.style.display === 'none') {
             ddTwo.current.style.display = 'block';
         }
 
@@ -49,7 +49,7 @@ const Sidebar = () => {
     }
 
     function dropDownThree() {
-        if(ddThree.current.style.display === 'none') {
+        if (ddThree.current.style.display === 'none') {
             ddThree.current.style.display = 'block';
         }
 
@@ -60,7 +60,7 @@ const Sidebar = () => {
 
 
     function dropDownFour() {
-        if(ddFour.current.style.display === 'none') {
+        if (ddFour.current.style.display === 'none') {
             ddFour.current.style.display = 'block';
         }
 
@@ -71,7 +71,7 @@ const Sidebar = () => {
 
 
     function dropDownFive() {
-        if(ddFive.current.style.display === 'none') {
+        if (ddFive.current.style.display === 'none') {
             ddFive.current.style.display = 'block';
         }
 
@@ -81,91 +81,91 @@ const Sidebar = () => {
     }
 
 
-  return (
-    <div id='sidebar'>
-      {/* THis is Sidebar */}
+    return (
+        <div id='sidebar'>
+            {/* THis is Sidebar */}
 
-      {/* <NavLink to='/'>Patients</NavLink> */}
+            {/* <NavLink to='/'>Patients</NavLink> */}
 
 
-      {/* <select name="Patients" id="">
+            {/* <select name="Patients" id="">
         <option value="Patients List">Patients List</option>
         <option value="Patients List">pok List</option>
         <option value="Patients List">new List</option>
         <option value="Patients List">Patients List</option>
       </select> */}
 
-    <div id="dashboard" >
-        <NavLink to='/homepage'>
-            <i class="fa-solid fa-hospital-user"></i>
-            <p>Dashboard</p> 
-        </NavLink>
-        {/* <i class="fa-solid fa-angle-down"></i>   */}
-    </div>
-
-
-    <div id="dropDown-one" onClick={dropDownOne}>
-        <i class="fa-solid fa-hospital-user"></i>
-        <p>Patients</p> 
-        <i class="fa-solid fa-angle-down"></i>  
-    </div>
-
-        <ul id='patients-ul' ref={ddOne}>        
-            <li><NavLink to='/patients-list'>Patients List</NavLink></li>
-            {/* <li><NavLink to='/pok'>pok</NavLink></li> */}
-            <li><NavLink to='/new-list'>New List</NavLink></li>
-        </ul>
-
-
-    <div id="dropDown-two" onClick={dropDownTwo}>
-        <i class="fa-regular fa-calendar-check"></i>
-        <p>Appointments</p>  
-        <i class="fa-solid fa-angle-down"></i>  
-    </div>
-
-        <ul id='appointments-ul' ref={ddTwo}> 
-            <li><NavLink to='/appointments-list'>Appointments List</NavLink></li>
-            
-            {/* <li><NavLink to='/pok'>pok</NavLink></li> */}
-            <li><NavLink to='/new-list'>New List</NavLink></li>
-        </ul>
-
-    <div id="dropDown-three">
-        <i class="fa-regular fa-comment-dots"></i>
-        <p>Message</p>  
-        {/* <i class="fa-solid fa-angle-down"></i>   */}
-    </div>
-
-    <div id="dropDown-four">
-        <i class="fa-solid fa-file-prescription"></i>
-        <p>Medications</p>  
-        {/* <i class="fa-solid fa-angle-down"></i>   */}
-    </div>
-
-    <div id="dropDown-five">
-        <i class="fa-solid fa-wallet"></i>
-        <p>Wallet</p>  
-        {/* <i class="fa-solid fa-angle-down"></i>   */}
-    </div>
-
-      {/* <NavLink to='/homepage'>Appointments</NavLink> */}
-
-
-    <div id="theme">
-            <div id="dark">
-                {/* Dark Theme  */}
+            <div id="dashboard" >
+                <NavLink to='/homepage'>
+                    <i class="fa-solid fa-hospital-user"></i>
+                    <p class="padding">Dashboard</p>
+                </NavLink>
+                {/* <i class="fa-solid fa-angle-down"></i>   */}
             </div>
 
-            <div id="light">
-                {/* Light Theme  */}
+
+            <div id="dropDown-one" onClick={dropDownOne}>
+                <i class="fa-solid fa-hospital-user"></i>
+                <p class="padding">Patients</p>
+                <i class="fa-solid fa-angle-down"></i>
             </div>
-    </div>
+
+            <ul id='patients-ul' ref={ddOne}>
+                <li><NavLink to='/patients-list'>Patients List</NavLink></li>
+                {/* <li><NavLink to='/pok'>pok</NavLink></li> */}
+                <li><NavLink to='/new-list'>New List</NavLink></li>
+            </ul>
 
 
-    
+            <div id="dropDown-two" onClick={dropDownTwo}>
+                <i class="fa-regular fa-calendar-check"></i>
+                <p class="padding">Appointments</p>
+                <i class="fa-solid fa-angle-down"></i>
+            </div>
 
-    </div>
-  )
+            <ul id='appointments-ul' ref={ddTwo}>
+                <li><NavLink to='/appointments-list'>Appointments List</NavLink></li>
+
+                {/* <li><NavLink to='/pok'>pok</NavLink></li> */}
+                <li><NavLink to='/new-list'>New List</NavLink></li>
+            </ul>
+
+            <div id="dropDown-three">
+                <i class="fa-regular fa-comment-dots"></i>
+                <p class="padding">Message</p>
+                {/* <i class="fa-solid fa-angle-down"></i>   */}
+            </div>
+
+            <div id="dropDown-four">
+                <i class="fa-solid fa-file-prescription"></i>
+                <p class="padding">Medications</p>
+                {/* <i class="fa-solid fa-angle-down"></i>   */}
+            </div>
+
+            <div id="dropDown-five">
+                <i class="fa-solid fa-wallet"></i>
+                <p class="padding" style={{ "padding": "10px" }}>Wallet</p>
+                {/* <i class="fa-solid fa-angle-down"></i>   */}
+            </div>
+
+            {/* <NavLink to='/homepage'>Appointments</NavLink> */}
+
+
+            <div id="theme">
+                <div id="dark">
+                    {/* Dark Theme  */}
+                </div>
+
+                <div id="light">
+                    {/* Light Theme  */}
+                </div>
+            </div>
+
+
+
+
+        </div>
+    )
 }
 
 export default Sidebar

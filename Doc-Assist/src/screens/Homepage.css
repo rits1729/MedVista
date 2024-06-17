@@ -34,6 +34,7 @@
     /* height: 100vh; */
     width: 12%;
     background-color: white;
+    margin-right: 20px;
     /* padding: 0 0.5%; */
     /* border-right: solid 1px gray; */
 }
@@ -107,7 +108,7 @@
     align-items: center;
 
 }
-    
+
 #top-widgets .bottom a {
     text-decoration: none;
     flex: 1;
@@ -136,7 +137,8 @@
     /* border: solid 1px gray;   */
 }
 
-#mid-graphs .left .top, #mid-graphs .right .top {
+#mid-graphs .left .top,
+#mid-graphs .right .top {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -144,7 +146,8 @@
     /* padding-top: 10px; */
 }
 
-#mid-graphs .left, #mid-graphs .right {
+#mid-graphs .left,
+#mid-graphs .right {
     flex: 1;
 
     /* border: solid 2px green; */
@@ -152,12 +155,11 @@
     padding: .5% 2%;
 
     border-radius: 20px;
-} 
+}
 
 #bottom-table {
-    
+
     /* margin-top: 2%; */
     padding: 2% 1%;
     /* padding-top: 2%; */
 }
-
